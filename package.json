@@ -1,0 +1,23 @@
+{
+  "name": "restful-api-with-node.js-express-and-mongodb",
+  "version": "1.0.0",
+  "description": "🌠This is a Restful api built with Node.js, Express and MongoDB from scratch for learning.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaolucas2012/restful-api-with-node.js-express-and-mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaolucas2012/restful-api-with-node.js-express-and-mongodb/issues"
+  },
+  "homepage": "https://github.com/joaolucas2012/restful-api-with-node.js-express-and-mongodb#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18"
+  }
+}
