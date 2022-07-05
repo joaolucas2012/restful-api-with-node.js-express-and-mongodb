@@ -5,6 +5,7 @@ const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const port = process.env.PORT || 3000;
 
 // Middlewares
 app.use(cors());
@@ -24,4 +25,4 @@ app.get('/', (req, res) => {
     res.send('We are on home');
 });
 
-app.listen(3000);
+app.listen(port);
